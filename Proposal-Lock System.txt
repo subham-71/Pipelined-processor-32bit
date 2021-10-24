@@ -1,0 +1,24 @@
+IMPLEMENTATION OF ENCRYPTED PASSWORD BASED LOCK SYSTEM USING VERILOG
+ 
+24 October, 2021
+
+Submitted By: - 
+1. Subham Subhasis Sahoo -2020CSB1317
+2. Pooja Goyal - 2020CSB1108
+
+OVERALL OBJECTIVE
+We would like to implement an encrypted password based lock system in verilog.
+
+IMPLEMENTATION
+It will be implemented as RTL in verilog. We will be using all the basic components like mux,flip-flops,counter,comparator etc in the project.
+
+FUNCTIONALITY
+1. The original key to the lock would be stored in an encrypted format.
+2. The system will be taking input password from the user.
+3. Then it will decrypt the original password and match it with the user input one by one.
+4. It will be checking the input sequentially and would raise alert if some of the bits are not matching while giving input.
+5. Finally if all the bits match, then it will give access.
+6. After an unsuccessful attempt, one needs to press a reset button so as to take a new input.
+
+
+

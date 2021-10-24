@@ -7,13 +7,14 @@ Submitted By: -
 2. Pooja Goyal - 2020CSB1108
 
 OVERALL OBJECTIVE
-We would like to implement a simple processor that supports basic arithmetic and logical operations and is able to store and fetch data  efficiently from a bank of registers.
+We would like to implement a simple 32-bit processor that supports basic arithmetic and logical operations and is able to store and fetch data  efficiently from a bank of registers.
 
 IMPLEMENTATION
 It will be implemented as RTL in verilog.
 
 FUNCTIONALITY
-1. We will be storing 32-bit data in a bank of registers using a type of encoding which contains information about the type of operation , operands and address (where the result will be stored), in one register.
+1. We will be storing 32-bit data in a bank of registers using a type of encoding which contains information about the type of operation , operands 
+and address (where the result will be stored), in one register. We will be using adders,mux,flip flops, registers and other basic components in this project.
 
 2. Then we will be performing operations on this stored data using the instruction execution cycle which is as follows: 
    1. Instruction Fetching

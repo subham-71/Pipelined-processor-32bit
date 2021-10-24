@@ -1,0 +1,26 @@
+﻿Implementation of Processor using Verilog
+24 October, 2021
+Submitted By: - 
+1. Subham Subhasis Sahoo -2020CSB1317
+2. Pooja Goyal - 2020CSB1108
+OVERALL OBJECTIVE
+We would like to implement a simple processor that supports basic arithmetic and logical operations and is able to store and fetch data  efficiently from a bank of registers.
+IMPLEMENTATION
+It will be implemented as RTL in verilog.
+FUNCTIONALITY
+1. We will be storing 32-bit data in a bank of registers using a type of encoding which contains information about the type of operation , operands and address (where the result will be stored), in one register.
+2. Then we will be performing operations on this stored data using the instruction execution cycle which is as follows: 
+   1. Instruction Fetching
+   2. Decoding Instruction
+   3. Executing and finding address to store the result
+   4. Accessing Memory where result is to be stored
+   5. Writing in the register
+3. Our processor will be performing the following operations:
+   1. Addition
+   2. Subtraction
+   3. Multiplication
+   4. And
+   5. Or
+   6. Data Loading
+   7. Data Storing
+   8. Compare two numbers

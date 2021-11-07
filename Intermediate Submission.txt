@@ -1,6 +1,8 @@
 ﻿Processor
 7 November 2021
+
 INPUT/OUTPUT
+
 Inputs will be given by testbenches. We will first store data in the registers or can use immediate operations . Then, we can give instructions in R type or I type encoded format to extract the data , perform operation and again store it back in one of  the destination registers. 
 We can verify the operations performed by printing out the register bank and seeing what values are stored in each of the registers after computations.
 An example of the input instruction is :
@@ -10,8 +12,8 @@ Here we are trying to add the values stored in register R2 and R3 , and then fin
 ADD       R1, R2, R3
 
 
-31                            26    25                        21      20                        16     15                         11     10                           6      5                            0
-000000
+31                26    25                        21      20                        16     15                         11     10                           6      5                            0
+000000 
 	00010
 	00011
 	00001
@@ -22,6 +24,7 @@ ADD       R1, R2, R3
 
 
 FUNCTIONALITY
+
 Module inputs and outputs and their bit width are defined in the main.v file.
 Instructions are encoded in R type  and I type encoding and are then further decoded while performing operations.
 1. IF : Instruction Fetch - In this stage, the instruction pointed to by the PC (Program Counter) is fetched in IR (Instruction Register) from the memory and the next value of PC is computed. The fetched instruction is stored in temporary latches in between IF and ID stages and is then passed on for decoding.

@@ -1,10 +1,13 @@
-﻿Processor
+Processor
 7 November 2021
 
 INPUT/OUTPUT
 
-Inputs will be given by testbenches. We will first store data in the registers or can use immediate operations . Then, we can give instructions in R type or I type encoded format to extract the data , perform operation and again store it back in one of  the destination registers. 
+Inputs will be given by testbenches.
+We will first store data in the registers or can use immediate operations .
+Then, we can give instructions in R type or I type encoded format to extract the data , perform operation and again store it back in one of  the destination registers. 
 We can verify the operations performed by printing out the register bank and seeing what values are stored in each of the registers after computations.
+
 An example of the input instruction is :
 Here we are trying to add the values stored in register R2 and R3 , and then finally store them in the R1 register.
 
@@ -15,9 +18,6 @@ ADD       R1, R2, R3
 Bit Indices : 31       26     25         21      20          16     15          11     10         6      5         0                  
 Instruction :   000000 	          00010               00011             00001              00000            000000
 	
-	
-
-
 
 FUNCTIONALITY
 
@@ -29,7 +29,7 @@ Instructions are encoded in R type  and I type encoding and are then further dec
 2. ID : Instruction Decode - Here, the instruction already fetched in IR is decoded. The source and destination registers are obtained. The values stored in the register are passed on to the temporary latches and forwarded for execution.
 
 
-3. EX : Execution - In this step , the ALU is used to perform some calculations. The exact operation depends on the instruction that is already decoded. As per the instruction ALU performs operations and stores it in ALUout 
+3. EX : Execution - In this step , the ALU is used to perform some calculations. The exact operation is in the instruction that is already decoded. As per the instruction ALU performs operations and stores it in ALUout. 
 
 
 4. MEM: Memory Access - The load and store instructions access the memory and pass on to the latch between  MEM and WB stages.

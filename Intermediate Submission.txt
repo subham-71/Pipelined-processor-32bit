@@ -12,13 +12,9 @@ Here we are trying to add the values stored in register R2 and R3 , and then fin
 ADD       R1, R2, R3
 
 
-31                26    25                        21      20                        16     15                         11     10                           6      5                            0
-000000 
-	00010
-	00011
-	00001
-	00000
-	000000
+Bit Indices : 31       26     25         21      20          16     15          11     10         6      5         0                  
+Instruction :   000000 	          00010               00011             00001              00000            000000
+	
 	
 
 

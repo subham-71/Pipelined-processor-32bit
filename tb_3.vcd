@@ -29,7 +29,7 @@ $var reg 32 / IF_ID_IR [31:0] $end
 $var reg 32 0 IF_ID_NPC [31:0] $end
 $var reg 32 1 MEM_WB_ALUOut [31:0] $end
 $var reg 32 2 MEM_WB_IR [31:0] $end
-$var reg 32 3 MEM_WB_LMD [31:0] $end
+$var reg 32 3 MEM_WB_LMD [31:0] $end 
 $var reg 3 4 MEM_WB_type [2:0] $end 
 $var reg 32 5 PC [31:0] $end
 $upscope $end

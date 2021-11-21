@@ -17,7 +17,7 @@ module test_mips32;
             #5 clk2 = 0;
         end
     end
-    // adding R1,R2,R3 storing them in R4
+    // adding R1,R2,R3 storing them in R5
     //-------------------------------------------------------------------------
     initial begin
         for(k = 0;k<31;k++)

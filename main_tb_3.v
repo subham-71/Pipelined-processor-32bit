@@ -44,7 +44,7 @@ module test_mips32;
     end    
 
     initial begin
-        $dumpfile ("mips_4.vcd");
+        $dumpfile ("tb_3.vcd");
         $dumpvars (0, test_mips32);
         #100000 $finish;
     end
